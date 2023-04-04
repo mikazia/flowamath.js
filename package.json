@@ -1,6 +1,6 @@
 {
   "name": "flowamath",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "💙 un package de mathématique pour calculer des expressions mathématiques dans JavaScript 💙",
   "main": "index.js",
   "scripts": {

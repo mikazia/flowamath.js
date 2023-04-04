@@ -31,5 +31,11 @@ soustraire(a, b) {
 multiply(a, b) {
         return a * b;
   }
-}
+calculatePercentage(firstNumber, secondNumber) {
+        if (typeof firstNumber !== 'number' || typeof secondNumber !== 'number') {
+            return 'Invalid input, please provide clear instructions.';
+        }
+        return (firstNumber / secondNumber) * 100;
+    }
+  }
 module.exports = InitMath;
